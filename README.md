@@ -4,31 +4,31 @@ This project focuses on sentiment classification of e-commerce product reviews t
 
 We developed a machine learning pipeline that transforms textual reviews into numerical representations using different text vectorization techniques and applies various classification models to predict sentiment categories:
 
-Positive
+🤖Positive
 
-Negative
+🤖Negative
 
-Neutral
+🤖Neutral
 
 🔑 Key Features
 
 Multiple Text Vectorization Approaches:
 
-Bag of Words (BoW) – Simple frequency-based representation.
+👾Bag of Words (BoW) – Simple frequency-based representation.
 
-Word2Vec (CBOW & Skip-gram) – Context-aware embeddings for semantic understanding.
+👾Word2Vec (CBOW & Skip-gram) – Context-aware embeddings for semantic understanding.
 
-GloVe (Global Vectors for Word Representation) – Captures global statistical information from the corpus.
+👾GloVe (Global Vectors for Word Representation) – Captures global statistical information from the corpus.
 
-Ensemble Learning Models for Classification:
+👾Ensemble Learning Models for Classification:
 
-Random Forest – Robust tree-based ensemble method.
+👾Random Forest – Robust tree-based ensemble method.
 
-Gradient Boosting – Sequential learning with optimized error reduction.
+👾Gradient Boosting – Sequential learning with optimized error reduction.
 
-AdaBoost – Boosting weak learners into strong predictors.
+👾AdaBoost – Boosting weak learners into strong predictors.
 
-Multi-Class Sentiment Prediction: Classifies reviews as Positive, Negative, or Neutral.
+👾Multi-Class Sentiment Prediction: Classifies reviews as Positive, Negative, or Neutral.
 
 🎯 Objective
 
@@ -40,32 +40,32 @@ Programming Language: Python 🐍
 
 Libraries & Tools:
 
-scikit-learn – Machine learning algorithms
+👽scikit-learn – Machine learning algorithms
 
-gensim – Word2Vec implementation
+👽gensim – Word2Vec implementation
 
-NLTK / spaCy – Text preprocessing
+👽NLTK / spaCy – Text preprocessing
 
-pandas, numpy – Data manipulation
+👽pandas, numpy – Data manipulation
 
-matplotlib, seaborn – Visualization
+👽matplotlib, seaborn – Visualization
 
 🚀 Workflow
 
-Data Collection & Preprocessing: Cleaning, tokenization, stopword removal, and lemmatization.
+👻Data Collection & Preprocessing: Cleaning, tokenization, stopword removal, and lemmatization.
 
-Feature Extraction: Apply BoW, Word2Vec (CBOW & Skip-gram), and GloVe.
+👻Feature Extraction: Apply BoW, Word2Vec (CBOW & Skip-gram), and GloVe.
 
-Model Training: Train Random Forest, Gradient Boosting, and AdaBoost on extracted features.
+👻Model Training: Train Random Forest, Gradient Boosting, and AdaBoost on extracted features.
 
-Evaluation: Measure performance using accuracy, precision, recall, and F1-score.
+👻Evaluation: Measure performance using accuracy, precision, recall, and F1-score.
 
-Sentiment Prediction: Classify reviews into Positive, Negative, or Neutral categories.
+👻Sentiment Prediction: Classify reviews into Positive, Negative, or Neutral categories.
 
 📊 Expected Outcome
 
-An automated sentiment analysis system that can handle large volumes of customer reviews.
+👀An automated sentiment analysis system that can handle large volumes of customer reviews.
 
-Comparative performance analysis of vectorization techniques and classification models.
+👀Comparative performance analysis of vectorization techniques and classification models.
 
-A framework that can be integrated into real-world e-commerce platforms for better decision-making.
+👀A framework that can be integrated into real-world e-commerce platforms for better decision-making.
